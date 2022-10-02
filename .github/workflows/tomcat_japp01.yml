@@ -49,5 +49,5 @@ jobs:
       with:
         app-name: 'japp01'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_7ea70d67e2b94db29af4a4ae80aebe75 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_31a728c5a7644d6f9d8c63156c0e24a2 }}
         package: '*.war'
