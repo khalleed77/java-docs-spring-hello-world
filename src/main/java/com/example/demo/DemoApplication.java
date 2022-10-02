@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@RequestMapping("/")
 	String sayHello() {
-		return "Hello World!";
+		return "Hello from App Service on Azure Arc-enabled Kubernetes cluster";
 	}
 }
